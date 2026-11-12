@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+body{
+  margin:0;
+  padding:0;
+}
+
+h1{
+  color:#0B1F55;
+  text-align:center;
+  margin-top:30px;
+}
+
+.card-a{
+  background-color:#F4F6FC;
+  padding:25px 25px;
+  width:1000px;
+  margin-top:30px;
+  margin-left:100px;
+  border-radius:13px;
+}
+.card-a h2{
+  color: #0B1F55;
+  text-align:center;
+  font-size:26px;
+  margin-bottom:10px;
+}
+.card-a p{
+  color: #666666;
+  font-size:1.1rem;
+  margin-bottom:20px;
+}
+.card-b{
+  background-color:#F4F6FC;
+  padding:25px 25px;
+  width:1000px;
+  margin-top:30px;
+  margin-left:100px;
+  border-radius:13px;
+}
+.card-b h2{
+  color: #0B1F55;
+  text-align:center;
+  font-size:26px;
+  margin-bottom:10px;
+}
+.card-b ul li{
+  color:#0B1F55;
+  font-size:1.3rem;
+  margin-left:50px;
+}
+.card-b p{
+  color: #666666;
+  margin-bottom:10px;
+  font-size:1.1rem;
+}
+.purpose{
+  background-color:#F4F6FC;
+  padding:25px 25px;
+  width:1000px;
+  margin-top:30px;
+  margin-left:100px;
+  border-radius:13px;
+
+}
+.purpose h2{
+  color: #0B1F55;
+  text-align:center;
+  padding-bottom:15px;
+  font-size:26px;
+}
+.purpose p{
+  color:#666666;
+  font-size:1.1rem;
+}
+.end-text{
+  text-align:center;
+  padding-top:20px;
+  font-weight:bold;
+  color: #0B1F55;
+  margin-bottom:80px;
+}
+
+.button{
+  display:inline-block;
+  background-color:#0B1F55;
+  color:white;
+  padding: 12px 20px;
+  text-decoration:none;
+  border-radius:8px;
+  margin-top:20px;
+  margin-left:550px;
+  margin-right:50px;
+  margin-bottom:100px;
+}
+

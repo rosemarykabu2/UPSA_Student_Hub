@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+body{
+  margin:0;
+  padding:0;
+}
+.logo img{
+  width:75%;
+  margin-left:50px;
+  margin-top:35px;
+}
+header{
+  display:flex;
+  margin-top:70px;
+}
+.heading-text{
+  margin-right:150px;
+  margin-top:20px;
+}
+.heading-text h1{
+  color:#0B1F55;
+  margin-top:20px;
+  text-align:center;
+}
+.heading-text P{
+  color:#666666;
+  width:740px;
+  margin-bottom:20px;
+}
+
+.heading{
+  text-align:center;
+  margin-top:20px;
+  color: #0B1F55;
+}
+
+
+
+.main-card{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:25px;
+  margin:30px 55px;
+}
+main{
+   background-color:#F4F6FC;
+}
+.card-A{
+  background-color:#E9AE20;
+  color:#FFFFFF;
+  padding-left:30px;
+  padding-top:15px;
+  padding-bottom:15px;
+
+  display:grid;
+  grid-template-rows:auto 1fr auto;
+  min-height:250px;
+}
+
+.card-A a{
+  margin-top:auto;
+  align-self:flex-start;
+}
+.card-A ul {
+  padding-top:10px;
+}
+span{
+  background-color:white;
+  color:#0B1F55;
+  display:inline-flex;
+  justify-content:center;
+  align-items:center;
+  width:40px;
+  height:40px;
+  border-radius:10px;
+  font-size:24px;
+  font-weight:bold;
+}
+.card-A,.card{
+  font-size:1.2rem
+}
+.card-A .btn{
+  display:inline-block;
+  background-color:#0B1F55;
+  color:white;
+  padding: 12px 20px;
+  text-decoration:none;
+  border-radius:8px;
+  margin-top:20px;
+  margin-left:50px;
+  margin-right:50px;
+}
+.card-A h2{
+  padding-bottom:5px;
+}
+
+.card{
+  background-color:#0B1F55;
+  color:#FFFFFF;
+  padding-left:30px;
+  padding-top:15px;
+  padding-bottom:15px;
+
+  display:grid;
+  grid-template-rows:auto 1fr auto;
+  min-height:250px;
+}
+.card .btn{
+  background-color: #E9AE20;
+   display:inline-block;
+  color:white;
+  height:50px;
+  width:200px;
+  text-decoration:none;
+  border-radius:8px;
+  text-align:center;
+  margin-top:20px;
+  margin-left:50px;
+  padding-top:10px;
+}
+.platform-grid{
+  grid-column:1/4;
+  width:100%;
+  text-align:center;
+  color:#0B1F55;
+}
+.card p{
+  margin-top:30px;
+}
