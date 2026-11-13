@@ -114,16 +114,28 @@ body {
 }
 
 .auth-button:hover {
-    background-color: #0B1F55;
-    color:white;
+    background-color:#ffffff;
+    color:#0B1F55;
+    border:1px solid #0b1f55;
 }
-
+.form-group p{
+    color:red !important;
+    font-size:13px;
+    margin-top:5px;
+}
 /* Footer */
 .auth-footer {
     text-align: center;
     margin-top: 25px;
     font-size: 14px;
     color: #64748b;
+}
+
+#success-message{
+    color:green;
+    font-size:14px;
+    text-align:center;
+    margin-top:10px;
 }
 
 /* Mobile responsiveness */

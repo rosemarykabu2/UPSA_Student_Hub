@@ -6,8 +6,7 @@
   <title>UPSA Student Hub</title>
   <link rel="stylesheet" href="main-page.css">
   <link rel="stylesheet" href="fontawesome-free-7.2.0-web/css/all.min.css">
-
-</head>
+  </head>
 <body>
   <header>
        <div class="logo">
@@ -33,13 +32,14 @@
       <div id="home">
         <div class="overlay">
           <div class="hero-text">
-      <h1>Welcome to UPSA Student Hub.</h1>
+      <h1 id='heading'>Welcome to UPSA Student Hub.</h1>
       <h2>Your University. One Convenient Hub.</h2>
       <p>Access important university services, stay updated with campus news, and find the information you need in one place.</p>
+      <button id="change-message">Change-message</button>
 
-      </button>
+      
        <a href="#services"><button>
-        Explore Services <i class="fa-solid fa-arrow-right"></i> </a>
+        Explore Services <i class="fa-solid fa-arrow-right"></i></a></button>
           </div>
       </div>
         </div>
@@ -69,7 +69,7 @@
           <i class="fa-solid fa-bullhorn"></i>
          </div>
               <div class="middle-side">
-          <button>Featured</button>
+          <button class="deadline-btn">Deadline Approaching</button>
           <h3>Course Registration Deadline</h3>
           <p>All students are reminder to complete their course registration before the deadline.</p>
        </div>
@@ -275,5 +275,6 @@
       </div>
 
   </footer>
+  <script src="main-page.js"></script>
 </body>
 </html>

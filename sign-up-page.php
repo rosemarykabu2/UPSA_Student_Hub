@@ -15,7 +15,7 @@
                 <h1>Create Account</h1>
             </div>
 
-            <form action="#" method="POST">
+            <form action="#" method="POST" id="sign-up-form">
 
                 <div class="form-group">
                     <label for="fullname">Full Name</label>
@@ -26,6 +26,7 @@
                         placeholder="Enter your full name"
                         required
                     >
+                    <p id="name-error"></p>
                 </div>
 
                 <div class="form-group">
@@ -37,17 +38,7 @@
                         placeholder="Enter your email"
                         required
                     >
-                </div>
-
-                 <div class="form-group">
-                    <label for="email">Index Number</label>
-                    <input
-                        type="text"
-                        id="email"
-                        name="email"
-                        placeholder="Enter your index number"
-                        required
-                    >
+                    <p id="email-error"></p>
                 </div>
 
                 <div class="form-group">
@@ -59,6 +50,7 @@
                         placeholder="Create a password"
                         required
                     >
+                    <p id="password-error"></p>
                 </div>
 
                 <div class="form-group">
@@ -70,6 +62,7 @@
                         placeholder="Confirm your password"
                         required
                     >
+                 <p id="confirmed-password-error"></p>
                 </div>
 
                 <button type="submit" class="auth-button">
@@ -78,6 +71,8 @@
 
             </form>
 
+            <p id='success-message'></p>
+
             <p class="auth-footer">
                 Already have an account?
                 <a href="login.html">Login</a>
@@ -85,6 +80,6 @@
 
         </section>
     </main>
-
+       <script src="signup.js"></script>
 </body>
 </html>

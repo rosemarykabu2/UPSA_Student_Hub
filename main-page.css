@@ -102,7 +102,15 @@ nav ul li a:hover{
 }
 .deadline-box{
   background-color:#FFF4D9;
-  
+}
+.deadline-btn{
+  background-color:red;
+  color:white;
+  border:none;
+  font-size:1rem;
+  padding:0.5em;
+  border-radius:6px;
+  margin-bottom:10px;
 }
 .min-box{
   margin-right:40px;
@@ -162,7 +170,7 @@ nav ul li a:hover{
   margin-top:60px;
   white-space: nowrap;
 }
-.news-box button, .deadline-box button{
+.news-box button{
   background-color:#E9AE20;
   color: #0B1F55;
   border:none;
